@@ -1,0 +1,34 @@
+{
+  "name": "options-analysis-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for E*TRADE options analysis",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "auth": "node src/auth/setup.js"
+  },
+  "keywords": [
+    "mcp",
+    "options",
+    "etrade",
+    "trading"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/gemini-cli": "^0.22.5",
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "debug": "^4.4.3",
+    "dotenv": "^16.3.1",
+    "e-trade-api": "^0.3.0",
+    "extend-error": "^0.0.2",
+    "node-fetch": "^3.3.2",
+    "oauth": "^0.10.2",
+    "oauth-1.0a": "^2.2.6",
+    "openai": "^6.15.0",
+    "promise": "^8.3.0",
+    "request": "^2.88.2"
+  }
+}
